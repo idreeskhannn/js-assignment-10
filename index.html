@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr td {
+            width: 70px;
+            text-align: center;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>
+
+
+        question=1
+    </h3>
+
+
+
+
+    <input id="text" type="text" placeholder="enter your name"> <br>
+
+    <input id="tix" type="password" placeholder="enter yur passwords">
+
+    <button onclick="submit()">submit</button>
+
+    <h3>
+
+
+        question=2
+    </h3>
+
+    <p id="readme" onclick="read()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque placeat dolores
+        eaque.<a href="javascript:void =0;">read mor</a></p>
+
+
+    <h3>
+
+
+        question = 3
+    </h3>
+    <br>
+    <table border="1px solid">
+
+        <tr>
+            <td>Name </td>
+            <td>class </td>
+            <td>position</td>
+            <td colspan="2">Delete & Edit</td>
+        </tr>
+
+        <tr id="td1">
+            <td id="nam">idrees </td>
+            <td id="cll">12 </td>
+            <td id="pos">3rd</td>
+            <td><button onclick="delet()">delete</button></td>
+            <td><button onclick="edit()">edit</button></td>
+        </tr>
+
+        <tr id="td2">
+            <td id="nam1">Rafi </td>
+            <td id="cll2">12 </td>
+            <td id="pos3">2nd</td>
+            <td><button onclick="delet1()">delete</button></td>
+            <td><button onclick="edit1()">edit</button></td>
+        </tr>
+
+        <tr id="td3">
+            <td id="nam4">abdullah </td>
+            <td id="cll5">master </td>
+            <td id="pos6">1st</td>
+            <td><button onclick="delet2()">delete</button></td>
+            <td><button onclick="edit2()">edit</button></td>
+        </tr>
+    </table>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
